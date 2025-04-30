@@ -147,10 +147,11 @@ aside {
 aside li {
     list-style: none;
     border-bottom: solid #c0c0c0 1px;
-    padding: 30px 0;
 }
 
 aside li a {
+    display: block !important;
+    height: 60px;
     color: #000;
 }
 
