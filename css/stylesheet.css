@@ -94,13 +94,18 @@ nav li a:hover {
 .news {
     display: flex;
     gap: 100px;
+    padding-left: 50px;
+    padding-right: 80px;
 }
 
 article {
-    max-width: 62%;
+    width: 62%;
     padding-top: 50px;
     padding-bottom: 50px;
-    padding-left: 50px;
+}
+
+article img {
+    width: 100%;
 }
 
 
@@ -128,7 +133,7 @@ article {
 }
 
 aside {
-    padding-right: 80px;
+    width: 38%;
 }
 
 .aside-title {
@@ -217,15 +222,16 @@ footer {
     }
 
     .news {
-        max-width: 337px;
         flex-direction: column;
         gap: 0;
         margin: 0 auto;
+        padding: 10px 10px 50px 10px;
     }
 
     article {
-        padding: 30px 10px 10px 10px;
         width: 100%;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 
     .news-title {
@@ -241,7 +247,7 @@ footer {
     }
 
     aside {
-        padding: 10px 10px 50px 10px;
+        width: 100%;
     }
 
     .menu {
