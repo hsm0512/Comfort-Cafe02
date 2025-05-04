@@ -143,18 +143,21 @@ aside {
     border-bottom: solid #00FFFF 2px;
 }
 
-aside li {
+.aside-article {
     list-style: none;
+}
+
+.aside-article li {
     border-bottom: solid #c0c0c0 1px;
 }
 
-aside li a {
-    display: block !important;
-    height: 60px;
+.aside-article a {
+    display: block;
     color: #000;
+    padding: 15px;
 }
 
-aside li a:hover {
+.aside-article a:hover {
     color: #fff;
     background-color: #008080;
 }
